@@ -4,6 +4,6 @@ index = #{board[]}
 def position_taken?(board, index)
   if index == "" || " " || nil
     false
-  else true
+  else index == "X" || " X " || "O" || " O "
   end
 end
